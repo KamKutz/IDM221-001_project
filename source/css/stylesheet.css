@@ -1,7 +1,8 @@
 #navbar	{
-	background-color: #45364B;
-	border: 2px solid blue;
+	background-color: #6A8D73;
+	border: 2px solid #F0A868;
 	border-radius: 5px;
+	text-align: center;
 }
 
 li {
@@ -14,43 +15,60 @@ li {
 	margin-left: 425px;
 }
 
-#intro {
+.fronthead {
 	text-align: center;
+	background-color: #F4FDD9;
 	border-radius: 5px;
-	background-color: #8C93A8;
+	border: 1px ridge #F0A868;
 }
 
-#secintro { 
-	text-align: center;
+#myself {
+	background-color: #F4FDD9;
 	border-radius: 5px;
-	background-color: #E2D4B7;
- }
+	text-align: center;
+	border: 1px ridge #F0A868;
+}
 
 
  #content {
  	float: left;
- 	margin-left: -525px;
- 	background-color: #8C93A8;
+ 	background-color: #6A8D73;
  	border-radius: 5px;
  	text-align: center;
  	border: 1px solid black;
  }
 
- #footer {
- 	background-color: #326273;
+ .footer {
+ 	background-color: #F0A868;
  	border-radius: 5px;
- 	clear: both;
- 	color: white;
+ 	/*clear: both;*/
+ 	color: black;
  }
 
-a:visited {
+a {
 	text-decoration: none;
-	color: red;
+	color: #FFE8C2;
 }
 
+a:hover {
+	color: #E4FFE1;
+}
 
+a:visited {
+	color: ##AD9D83;
+}
 
+main {
+	display: flex;
+	flex-direction: column;
+}
 
+#info {
+	background-color: #6A8D73;
+	text-align: center;
+}
 
-
-
+.aboutdes {
+	background-color: #6A8D73;
+	text-align: center;
+}
