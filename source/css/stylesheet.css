@@ -1,0 +1,56 @@
+#navbar	{
+	background-color: #45364B;
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+}
+
+#nav {
+	align-content: center;
+	margin-left: 425px;
+}
+
+#intro {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #8C93A8;
+}
+
+#secintro { 
+	text-align: center;
+	border-radius: 5px;
+	background-color: #E2D4B7;
+ }
+
+
+ #content {
+ 	float: left;
+ 	margin-left: -525px;
+ 	background-color: #8C93A8;
+ 	border-radius: 5px;
+ 	text-align: center;
+ 	border: 1px solid black;
+ }
+
+ #footer {
+ 	background-color: #326273;
+ 	border-radius: 5px;
+ 	clear: both;
+ 	color: white;
+ }
+
+a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+
+
+
