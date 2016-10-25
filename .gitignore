@@ -54,3 +54,4 @@ Thumbs.db
 graphics
 node_modules
 fonts
+*.png
