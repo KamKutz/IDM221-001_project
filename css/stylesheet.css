@@ -1,48 +1,103 @@
+p {
+	width:50%;
+	margin: 0 auto;
+	line-height: 1.2em;
+}
+
+h1{
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
+h3 {
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+h2 {
+	text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
 #navbar	{
-	background-color: #6A8D73;
-	border: 2px solid #F0A868;
+	background-color: #189BA3;
+	border: 2px solid #1A7573;
 	border-radius: 5px;
 	text-align: center;
 }
 
-li {
-	display: inline;
-	padding: 10px;
+.navb_wrap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width:70%;
+	margin: 0 auto;
+}
+
+.navb {
+	min-width:20%;
+	padding: .5em 0;
+
+	font-size: 2em; /*32px*/
+	font-family: 'Roboto', sans-serif, arial;
+	font-weight: 400;
+}
+
+.navbar-logo {
+	transform:translateY(26px) scale(1.7);
+}
+
+.navbar-logo img {
+	width:auto; height:100px;
 }
 
 #nav {
 	align-content: center;
 	margin-left: 425px;
 }
- 
+
 .fronthead {
 	text-align: center;
-	background-color: #F4FDD9;
+	background-color: #FFFDE7;
 	border-radius: 5px;
-	border: 1px ridge #F0A868;
+	border: 1px ridge #1A7573;
+	padding-top: 10px;
+
+	font-family: 'Lobster', cursive, arial;
+}
+
+.raheader {
+	text-align: center;
+	background-color: #5FCECE;
+	border-radius: 5px;
+	border: 1px ridge #1A7573;
+
+
 }
 
 #myself {
-	background-color: #F4FDD9;
+	background-color: #5FCECE;
 	border-radius: 5px;
 	text-align: center;
-	border: 1px ridge #F0A868;
+	border: 1px ridge #1A7573;
 }
 
 
  #content {
  	float: left;
- 	background-color: #6A8D73;
+ 	background-color: #189BA3;
  	border-radius: 5px;
  	text-align: center;
  	border: 1px solid black;
  }
 
+#content p {
+	padding: 1em 0;
+}
+
  .footer {
- 	background-color: #F0A868;
+ 	background-color: #FFFDE7;
  	border-radius: 5px;
  	/*clear: both;*/
  	color: black;
+ 	text-align: center;
  }
 
 a {
@@ -60,13 +115,17 @@ main {
 }
 
 #info {
-	background-color: #6A8D73;
+	background-color: #189BA3;
 	text-align: center;
 }
 
 .aboutdes {
-	background-color: #6A8D73;
+	background-color: #189BA3;
 	text-align: center;
+}
+
+.aboutdes li {
+	list-style: none;
 }
 
 .image {
@@ -74,16 +133,30 @@ main {
 	text-align: center;
 }
 
-img {
+.portfolio {
 	width: 500px;
 	height: 330px;
 	border-radius: 5px;
-	border: 3px solid #F0A868;
+	border: 3px solid #1A7573;
 }
 
 .background {
-	background-color: #6A8D73;
+	background-color: #189BA3;
 }
+
+.logo {
+	width: 500px;
+	height: 300px;
+}
+
+ul {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	text-align: center;
+}
+
 
 
 
