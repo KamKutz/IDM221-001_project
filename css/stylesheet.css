@@ -70,8 +70,7 @@ h2 {
 	background-color: #5FCECE;
 	border-radius: 5px;
 	border: 1px ridge #1A7573;
-
-
+	padding: 12px;
 }
 
 #myself {
@@ -79,6 +78,7 @@ h2 {
 	border-radius: 5px;
 	text-align: center;
 	border: 1px ridge #1A7573;
+	padding: 12px;
 }
 
 
@@ -90,9 +90,9 @@ h2 {
  	border: 1px solid black;
  }
 
-#content p {
+/*#content p {
 	padding: 1em 0;
-}
+}*/
 
  .footer {
  	background-color: #FFFDE7;
@@ -100,6 +100,7 @@ h2 {
  	/*clear: both;*/
  	color: black;
  	text-align: center;
+ 	padding: 10px;
  }
 
 a {
@@ -108,7 +109,7 @@ a {
 }
 
 a:hover {
-	color: #E4FFE1;
+	color: #2C2C2C;
 }
 
 main {
@@ -119,11 +120,13 @@ main {
 #info {
 	background-color: #189BA3;
 	text-align: center;
+	padding: 12px;
 }
 
 .aboutdes {
 	background-color: #189BA3;
 	text-align: center;
+	padding: 12px;
 }
 
 .aboutdes li {
@@ -159,10 +162,26 @@ ul {
 	text-align: center;
 }
 
+.aboutpic { 
+	width: 300px;
+	height: 400px;
+ }
 
+#mainpar {
+	border: 3px solid #157D83;
+	border-radius: 5px;
+	background-color: #FFFDE7;
+	padding: 20px;
+	text-align: left;
+}
 
+.image a:hover img {
+	opacity: .75;
+}
 
-
-
+.portfoliotemp {
+	width: 700px;
+	height: 450px;
+}
 
 
